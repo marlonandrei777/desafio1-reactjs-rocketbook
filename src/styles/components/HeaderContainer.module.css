@@ -1,0 +1,11 @@
+.headerContainer {
+    background: #4267b2;
+    padding: 1rem;
+    text-align: center;
+}
+
+.headerContainer span {
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}

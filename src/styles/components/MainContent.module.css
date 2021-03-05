@@ -1,0 +1,13 @@
+.mainContent {
+    background: #ffffff;
+
+    border-top: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+.mainContent p {
+    font-weight: 500;
+    opacity: 0.6;
+    line-height: 28px;
+
+    margin-top: 1rem;
+}

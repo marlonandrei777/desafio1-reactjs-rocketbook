@@ -1,0 +1,28 @@
+.postHeader {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    
+}
+
+.postHeader img {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.postHeader .NameAndHours {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.postHeader .NameAndHours strong {
+    color: gray;
+    font-weight: 500;
+}
+
+.postHeader .NameAndHours span {
+    opacity: 0.4;
+    margin-top: 2px;   
+}
