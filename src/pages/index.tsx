@@ -38,8 +38,8 @@ export default function Home() {
     }
   ])
 
-  {posts.map(post => (<li key={post.id}>{post.author}</li>)) }
   
+  {posts.map(post => (<li key={post.id}>{post.author.name}</li>)) } // o map com <li> pra teste
   
     
   return (
@@ -54,6 +54,8 @@ export default function Home() {
           <div className={styles.contentContainer}>
             <PostHeader/>
             <Post/>
+
+            
           </div>
         </main>
         
