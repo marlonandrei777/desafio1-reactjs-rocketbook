@@ -1,26 +1,15 @@
 import React from 'react';
 import styles from '../styles/components/MainContent.module.css'
 
-export function Post() {
+import { PostHeader } from './PostHeader';
+
+export function Post({ postData }) {
+    const { author, timestamp, content } = postData
+    
     return (
         <div className={styles.mainContent}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-                elit. Nesciunt assumenda aliquid, tempora ullam, 
-                distinctio, culpa odio esse autem amet eaque perspiciatis 
-                voluptas quas qui fugit vel aliquam repudiandae eum sequi.
-                elit. Nesciunt assumenda aliquid, tempora ullam, 
-                distinctio, culpa odio esse autem amet eaque perspiciatis 
-                voluptas quas qui fugit vel aliquam repudiandae eum sequi.
-                elit. Nesciunt assumenda aliquid, tempora ullam, 
-                distinctio, culpa odio esse autem amet eaque perspiciatis 
-                voluptas quas qui fugit vel aliquam repudiandae eum sequi.
-                elit. Nesciunt assumenda aliquid, tempora ullam, 
-                distinctio, culpa odio esse autem amet eaque perspiciatis 
-                voluptas quas qui fugit vel aliquam repudiandae eum sequi.
-                elit. Nesciunt assumenda aliquid, tempora ullam, 
-                distinctio, culpa odio esse autem amet eaque perspiciatis 
-                voluptas quas qui fugit vel aliquam repudiandae eum sequi. 
-            </p>
+            <PostHeader author={author} timestamp={timestamp} />
+            <p>{content}</p>
         </div>
     );
 }
