@@ -44,7 +44,7 @@ export default function Home() {
   function postList() {
    const allPosts = posts.map(post => <Post postData={post} key={post.id} />)
 
-   return <main className={styles.main}><div>{allPosts}</div></main> ;
+   return <main className={styles.main}>{allPosts}</main> ;
   }
 
   return (
