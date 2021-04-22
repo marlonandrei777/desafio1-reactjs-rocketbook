@@ -12,7 +12,7 @@
 
 ## 💻 Projeto
 
- Desafio simples feito durante os estudos no Bootcamp da Rocketseat
+ Desafio simples feito durante os estudos de Reactjs no Bootcamp da Rocketseat
 
 ## 🔥 Tecnologias
 
